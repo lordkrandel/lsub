@@ -1,0 +1,4 @@
+typer==0.4.1
+prompt-toolkit==3.0.28
+questionary==1.10.0
+ripgrepy==1.1.0
