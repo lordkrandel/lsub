@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-
-"""
-    Replace in files with confirm
-"""
+# -*- coding: utf-8 -*-
 
 import os
 import questionary
