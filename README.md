@@ -1,6 +1,8 @@
-# sub
+# lsub
 
-Replaces occurrences of specified regex needle with a replacement.
+Combines the power of ![ripgrep](https://www.github.com/BurntSushi/ripgrep)
+and ![questionary](https://www.github.com/tmbo/questionary)
+to replace occurrences of specified regex needle with a replacement.
 
 Asks confirm for each replacement.
 
