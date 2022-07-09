@@ -16,9 +16,7 @@ Example:
 ```
 
 $ echo "Hello world!" > anyfile.txt
-
 $ echo "The world is not enough" > anyfile2.txt
-
 $ echo "The wooooorld's on fire!" > anyfile3.txt
 
 ```
