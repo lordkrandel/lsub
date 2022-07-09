@@ -11,7 +11,8 @@ Asks confirm for each replacement.
 
 Example:
 
-Create three files
+1. Create three files
+
 ```
 
 $ echo "Hello world!" > anyfile.txt
@@ -22,7 +23,7 @@ $ echo "The wooooorld's on fire!" > anyfile3.txt
 
 ```
 
-Find the `w*rld` inside of it
+2. Find the `w*rld` inside of it
 
 ```
 $ rg "w\w+rld"
@@ -37,7 +38,7 @@ anyfile2.txt
 
 ```
 
-Replace the `w*rld` with the whole `universe`
+3. Replace the `w*rld` with the whole `universe`
 
 ```
 $ lsub "w\w+rld" "universe"
@@ -55,7 +56,7 @@ Replace with "universe"? (n)ext/next (f)ile/(r)eplace/replace (a)ll/(q)uit > r
 Replace with "universe"? (n)ext/next (f)ile/(r)eplace/replace (a)ll/(q)uit > n
 ```
 
-See the changes you want, reflected in the filesystem!
+4. See the changes you want, reflected in the filesystem!
 
 ```
 $ rg "w\w+rld"
