@@ -13,7 +13,6 @@ from collections import namedtuple, defaultdict
 app = Typer(add_completion=False)
 Match = namedtuple('Match', 'filename lineno line submatches')
 
-
 def rg(needle, path):
     result = Ripgrepy(needle, path).with_filename().line_number().json().run()
     datas = [x['data'] for x in result.as_dict]
